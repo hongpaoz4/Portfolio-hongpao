@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Itim", sans-serif;
+}
+body {
+    background-color: blanchedalmond;
+    color: black;
+    line-height: 1.;
+}
+
+nav {
+    background-color: rgb(230, 175, 74);
+    color: black;
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+}
+
+nav .logo > img{
+    height: 125px;
+}
+
+nav ul{
+    display: flex;
+    list-style:none ;
+    gap: 20px;
+}
+
+nav a{
+    color: brown;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: aliceblue;
+}
+
+.header{
+    text-align: center;
+}
+
+.image-profile{
+    margin-bottom: 20px;
+}
+
+section{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card{
+    background: #fff;
+    width: 200px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 2px 2px 2px ;
+}
+
+.card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card h3{
+    padding: 5px 20px 5px;
+}
+
+.card p{
+    padding: 5px 20px 5px;
+}
